@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>home</title>
+
+<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+</head>
+
+<!---NAVIGATION BAR--->
+
+<div class="topnav">
+      <a class="active" href="index.html">HOME</a>
+      <a href="aboutme.html">ABOUT ME</a>
+      <a href="experience.html">EXPERIENCE</a>
+      <a href="education.html">EDUCATION </a> 
+      <a href="family.html">FAMILY</a>    
+      <a href= "favorite.html">FAVORITE</a> 
+ 
+ <img src="asset/image/totoro.jpeg" width="4%" heigth="4%" Align="right">
+
+</div>
+
+<!--- END OF NAVIGATION BAR--->
+
+<body>
+<body style background="asset/image/hill.jpeg" width="10%" height="10%">          
+
+<!---INSERTING VIDEO--->
+
+<center>
+ <video controls width="90%" height="90%" autoplay muted loop> 
+    <source src="asset/video/toro.mp4" type="video/mp4"> 
+</video>
+<!---END OF INSERTING VIDEO--->
+
+<!----SCRIPT--->
+<!---JAVA APPLET---> 
+
+<!---to call the css---> 
+
+   <center> <div id="clock"> 8:10:45 </div> </center>
+
+<!---to link to the current time---> 
+ 
+   <script src="clock2.js"></script>
+
+<br><br><br><br>
+<script> 
+ setInterval(showTime, 1000);
+function showTime() {
+  let time = new Date();
+  let hour = time.getHours();
+  let min = time.getMinutes();
+  let sec = time.getSeconds();
+  am_pm = "AM";
+
+  if (hour > 12) {
+    hour -= 12;
+    am_pm = "PM";
+  }
+  if (hour == 0) {
+    hr = 12;
+    am_pm = "AM";
+  }
+
+  hour = hour < 10 ? "0" + hour : hour;
+  min = min < 10 ? "0" + min : min;
+  sec = sec < 10 ? "0" + sec : sec;
+
+  let currentTime = hour + ":"
+      + min + ":" + sec + am_pm;
+
+  document.getElementById("clock")
+      .innerHTML = currentTime;
+}
+showTime();
+
+</script>
+<!--- END OF SCRIPT--->
+<!---QUOTE--->
+<center>
+ <font color="black" size="7"> <i> <b> “Everything that happen stays inside you... even if you can't remember it.” <font color="
+#A49393"> – Chichiro 
+
+<marquee scrollamount="12"> <source src="asset/video/ro.mp4" type="video/mp4">  </video> </marquee>
+
+</blockquote> </i> </font> </center>
+
+
+</body>
+</html>
+
+<br><br><br>
+ 
+<!---social media--->
+<br>
+<a href="https://instagram.com/hijeylly_?igshid=MmIzYWVlNDQ5Yg==" target="_blank"> 
+<img src="asset/image/caam.png" width="80px" height="80px"></a>
+
+<a href="https://open.spotify.com/user/31vtwf2a27qkvkwxn3cogw4t66qy?si=YwMe9meoQZyjEljNRd5WDg"target="_blank">
+<img src="asset/image/spotify.png" width="80px" height="80"></a>
+
+<a href="https://www.tiktok.com/@minicebg?_t=8d1SklQJ6Li&_r=1" target="_blank"> 
+<img src="asset/image/tictoc.png" width="80px" height="80"> </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---FOOTER--->
+
+ <b> <footer> 
+
+COPYRIGHT RESERVED 2023 
+
+</footer> </b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
